@@ -21,6 +21,8 @@ export default defineNuxtConfig({
     }
   },
 
+  css:['~/assests/css/index.css'],
+
   modules: ['@nuxt/eslint', '@nuxtjs/prismic'],
 
   prismic: {
