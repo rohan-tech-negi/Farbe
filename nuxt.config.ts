@@ -12,7 +12,12 @@ export default defineNuxtConfig({
         ,
         {name:"apple-mobile-web-app-title", content:"farbe"}
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        ,{rel:"apple-touch-icon", href:"/apple-touch-icon.png", sizes:"180x180"},
+        {rel:"icon", type:"image/png" ,href:"/favicon-96x96.png", sizes:"96x96"},
+        {rel:"icon", type:"image/svg+xml", href:"/faviconsvg"},
+        {rel:"manifest", href:"/site.webmanifest"}
+      ],
     }
   },
 
